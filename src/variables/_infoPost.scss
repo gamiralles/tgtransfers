@@ -1,0 +1,45 @@
+.infoPost {
+    h2{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+    }
+
+    h3 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 600;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    h6 {
+        font-family: 'Nunito', sans-serif;
+        font-weight: 300;
+        text-align: start;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    li {
+        font-family: 'Nunito', sans-serif;
+        font-weight: 200;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    animation: infoPost 2s ease-in 0s 1 normal forwards;
+    
+}
+
+@keyframes infoPost {
+	0% {
+		opacity: 0;
+		transform: translateY(250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
