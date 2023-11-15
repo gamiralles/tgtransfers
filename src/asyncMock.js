@@ -90,7 +90,7 @@ const post = [
 
 const inicio = [
   {
-    img: "https://images.pexels.com/photos/17897657/pexels-photo-17897657/free-photo-of-resfriado-glaciar-iceberg-paisaje.jpeg?auto=compress&cs=tinysrgb&w=400",
+    img: "/FlotaTG.jpeg",
   },
 ];
 
