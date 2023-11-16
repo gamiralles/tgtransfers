@@ -9,9 +9,6 @@ const InicioContainer = () => {
     const [error, setError] = useState(null)
     const [inicio, setInicio] = useState([]);
 
-    
-    // const asyncFunction = categoryId ? getPostByCategory : getInicio
-
     useEffect(() => {
 
     setLoading(true)

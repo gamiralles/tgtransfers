@@ -15,7 +15,6 @@ const PostContainer = () => {
     useEffect(() => {
 
     setLoading(true)
-      asyncFunction(categoryId)
 
       asyncFunction(categoryId)
       .then(response => {

@@ -2,7 +2,7 @@ const post = [
   {
     id: "2",
     category: "moreno",
-    img: "https://images.pexels.com/photos/11278486/pexels-photo-11278486.jpeg?auto=compress&cs=tinysrgb&w=400",
+    img: "/GPMoreno.jpeg",
     titulo: "Glaciar Perito Moreno",
     info: "El Glaciar Perito Moreno es uno de los principales atractivos turísticos de la Patagonia Argentina. Se encuentra en el Parque Nacional Los Glaciares, en la provincia de Santa Cruz. Es uno de los glaciares más grandes del mundo, con una superficie de 250 kilómetros cuadrados.",
     titulo2: "Puntos Importantes",
@@ -12,7 +12,7 @@ const post = [
       "Avanza a una velocidad de 2 metros por día, lo que genera un fenómeno único en el mundo: el desprendimiento de enormes bloques de hielo, que caen al lago Argentino con un estruendo atronador.",
     info2c:
       "El mejor momento para visitarlo es durante los meses de verano, cuando las temperaturas son más altas y el clima es mas estable.",
-    titulo3: "Que hacer?:",
+    titulo3: "Que hacer?",
     info3a:
       "Recorrido por las Pasarelas. Adentrate en el bosque permitiendo vivir la magia del Glaciar desde una perspectiva única con unas excelentes vistas Panorámicas.",
     info3b:
@@ -22,8 +22,8 @@ const post = [
     info3d:
       "Safari Azul, navega en busca de fauna autóctona observando pingüinos lobos marinos aves y otros animales. Disfruta de un espectáculo natural Inolvidable.",
     info3e:
-      "Kayak frente al Glaciar. Rema entre los icebergs que se desprenden del Glaciar, sintiendo la emoción de estar rodeado de hielo, una experiencia única en la Patagonia.",
-    titulo4: "Nuestro Servicio:",
+      "Kayak frente al Glaciar. Remá entre los icebergs que se desprenden del Glaciar, sintiendo la emoción de estar rodeado de hielo, una experiencia única en la Patagonia.",
+    titulo4: "Nuestro Servicio",
     info4a: "Traslado al Parque Nacional",
     info4b: "Traslado al Puerto Punta Bandera",
     info4c: "Traslado al Puerto Bajo las Sombras",
@@ -31,10 +31,10 @@ const post = [
   {
     id: "3",
     category: "chalten",
-    img: "https://images.pexels.com/photos/3428177/pexels-photo-3428177.jpeg?auto=compress&cs=tinysrgb&w=400",
+    img: "/Chalten.jpeg",
     titulo: "El Chalten",
     info: "El Chalten es un pueblo ubicado al Norte del Parque Nacional Los Glaciares, en la provincia de Santa Cruz. Es un destino popular para los amantes del trekking, el montañismo y la naturaleza.",
-    titulo2: "Puntos Importantes:",
+    titulo2: "Puntos Importantes",
     info2a:
       "El Chalten es la base para explorar el Cerro Fitz Roy, una de las montañas más emblemáticas de la Patagonia.",
     info2b:
@@ -60,17 +60,17 @@ const post = [
   {
     id: "4",
     category: "austral",
-    img: "https://images.pexels.com/photos/14437116/pexels-photo-14437116.jpeg?auto=compress&cs=tinysrgb&w=400",
+    img: "/cCastillo.jpeg",
     titulo: "Carretera Austral",
     info: "La Carretera Austral es una ruta de 1.240 kilómetros que recorre la Patagonia Chilena. Es una de las rutas más pintorescas del mundo, ya que atraviesa bosques, montañas, glaciares y lagos.",
-    titulo2: "Puntos Importantes:",
+    titulo2: "Puntos Importantes",
     info2a:
       "Inicia su recorrido en la ciudad de El Calafate y finaliza en la ciudad de Bariloche.",
     info2b:
       "Recorre la emblemática Ruta Nacional 40 de Argentina y la ruta austral 7 de la Patagonia Chilena.",
     info2c:
       "El mejor momento para hacerlo es durante los meses de verano, cuando las temperaturas son más altas y el clima es mas estable.",
-    titulo3: "Que hacer?:",
+    titulo3: "Que hacer?",
     info3a:
       "Sendero de Colores en el PN Patagonia, disfruta de un paseo por un sendero de colores experimentando la belleza natural de la Patagonia. Una caminata ideal para todas las edades.",
     info3b:
@@ -81,16 +81,17 @@ const post = [
       "PN Queulat y Baños en termas naturales, visita el PN y descubrí sus glaciares, bosques y cascadas. Relajate en las termas naturales de Puyuhuapi, perfecto para descansar y disfrutar de la Naturaleza.",
     info3e:
       "Rafting por el rio Futaleufu, vivi la emoción en uno de los ríos más rápidos de America del Sur, desafía las aguas bravas y experimenta la adrenalina de la naturaleza, una actividad ideal para los amantes de la aventura.",
-    titulo4: "Nuestro Servicio:",
+    titulo4: "Nuestro Servicio",
     info4a: "Recorrido de 6 días y 5 noches.",
     info4b: "Traslados y logísticas, a lo largo de todo el recorrido.",
     info4c: "Reservas de alojamiento y excursiones.",
   },
-];
+]
 
 const inicio = [
   {
-    img: "/FlotaTG.jpeg",
+    id:"1",
+    img: "/InCastillo.jpeg",
   },
 ];
 
