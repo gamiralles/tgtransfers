@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Navegacion from './components/Navegacion.jsx'
-import Footer from '../src/components/Footer.jsx'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import PostContainer from './components/PostContainer/PostContainer.jsx'
+import Navegacion from './components/Navegacion.jsx'
 import InicioContainer from './components/Inicio/InicioContainer.jsx'
+import PostContainer from './components/PostContainer/PostContainer.jsx'
+import Footer from '../src/components/Footer.jsx'
 import './index.scss'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
