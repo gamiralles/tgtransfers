@@ -1,3 +1,5 @@
+import { useTranslation } from "react-i18next";
+
 const Post = ({
   titulo,
   info,
@@ -17,36 +19,39 @@ const Post = ({
   info4b,
   info4c,
 }) => {
+
+const { t } = useTranslation()
+
   return (
     <div className="infoPost">
       <br />
-      <h2>{titulo}</h2>
+      <h2>{t(titulo)}</h2>
       <br />
-      <h6>{info}</h6>
+      <h6>{t(info)}</h6>
       <img className="img-fluid" src={img} alt="" />
-      <h4>{titulo2}</h4>
+      <h4>{t(titulo2)}</h4>
       <ul>
-        <li>{info2a}</li>
-        <li>{info2b}</li>
-        <li>{info2c}</li>
+        <li>{t(info2a)}</li>
+        <li>{t(info2b)}</li>
+        <li>{t(info2c)}</li>
       </ul>
-      <h4>{titulo3}</h4>
+      <h4>{t(titulo3)}</h4>
       <ul>
-        <li>{info3a}</li>
-        <li>{info3b}</li>
-        <li>{info3c}</li>
-        <li>{info3d}</li>
-        <li>{info3e}</li>
+        <li>{t(info3a)}</li>
+        <li>{t(info3b)}</li>
+        <li>{t(info3c)}</li>
+        <li>{t(info3d)}</li>
+        <li>{t(info3e)}</li>
       </ul>
-      <h4>{titulo4}</h4>
+      <h4>{t(titulo4)}</h4>
       <ul>
-        <li>{info4a}</li>
-        <li>{info4b}</li>
-        <li>{info4c}</li>
+        <li>{t(info4a)}</li>
+        <li>{t(info4b)}</li>
+        <li>{t(info4c)}</li>
       </ul>
       <div className="buttonReservation">
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSfcimB2l_RUJgqY_ekluECH5jIKrXByOYz_nIb052ef8tLJFA/viewform" target="_blank">
-          <button type="button" className="btn btn-success">Reserva ahora!</button>
+          <button type="button" className="btn btn-success">{t("nav_reserva")}</button>
         </a>
       </div>
     </div>

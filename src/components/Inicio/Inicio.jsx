@@ -1,6 +1,6 @@
 const Inicio = ({ img }) => {
   return (
-      <div className="infoPost">
+      <div className="inicioPost">
         <img src={img} className="img-fluid" alt="" />
       </div>
   )

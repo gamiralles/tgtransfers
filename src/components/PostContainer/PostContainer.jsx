@@ -4,6 +4,9 @@ import { useState, useEffect } from "react";
 import { getInicio, getPostByCategory } from "../../asyncMock";
 import PostPublic from "./PostPublic";
 
+import Navegacion from "../Navegacion";
+import Footer from "../Footer";
+
 const PostContainer = () => {
     const [loading, setLoading] = useState(true)
     const [error, setError] = useState(null)
@@ -42,7 +45,9 @@ const PostContainer = () => {
 
     return (
         <div>
+            <Navegacion/>
             <PostPublic spot={post}/>
+            <Footer/>
         </div>
     )
     }
