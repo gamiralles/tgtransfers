@@ -34,9 +34,10 @@ const Navegacion = () => {
             {t("nav_austral")}
           </Nav.Link>
           <Nav.Link
-            href="https://docs.google.com/forms/d/e/1FAIpQLSf73H_j8COcBgdQ5-fMdGhfTslY5d0Dlr7o-o_DJszj3YSO5A/viewform"
-            target="_blank"
+            eventKey="/inicio"
+            href="https://wa.me/message/3AYMG447FQRYN1"
             className="links ms-3"
+            target="_blanck"
           >
             {t("nav_info")}
           </Nav.Link>

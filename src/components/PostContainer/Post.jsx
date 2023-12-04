@@ -50,7 +50,7 @@ const { t } = useTranslation()
         <li>{t(info4c)}</li>
       </ul>
       <div className="buttonReservation">
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfcimB2l_RUJgqY_ekluECH5jIKrXByOYz_nIb052ef8tLJFA/viewform" target="_blank">
+        <a href="https://wa.me/message/3AYMG447FQRYN1" target="_blank">
           <button type="button" className="btn btn-success">{t("nav_reserva")}</button>
         </a>
       </div>

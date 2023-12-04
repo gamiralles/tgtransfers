@@ -18,7 +18,7 @@ i18n
         "nav_chalten" : "El Chalten",
         "nav_austral" : "Carretera Austral",
         "nav_info" : "Mas información",
-        "nav_reserva" : "Reserva ahora!",
+        "nav_reserva" : "Consulta ahora!",
         
       "moreno": {
           "titulo": "Glaciar Perito Moreno",
@@ -59,7 +59,7 @@ i18n
         },
 
         "austral": {
-          "titulo": "CARRETERA AUSTRAL",
+          "titulo": "Carretera Austral",
           "info": "La Carretera Austral es una ruta de 1.240 kilómetros que recorre la Patagonia Chilena. Es una de las rutas más pintorescas del mundo, ya que atraviesa bosques, montañas, glaciares y lagos.",
           "titulo2": "Puntos Importantes",
           "info2a":"Inicia su recorrido en la ciudad de El Calafate y finaliza en la ciudad de Bariloche.",
@@ -86,7 +86,7 @@ i18n
       "nav_chalten": "El Chalten",
       "nav_austral": "Austral Road",
       "nav_info": "More information",
-      "nav_reserva": "Book now!",
+      "nav_reserva": "Consult now!",
 
       "moreno": {
         "titulo": "Perito Moreno Glacier",
@@ -153,7 +153,7 @@ i18n
       "nav_chalten": "El Chalten",
       "nav_austral": "Estrada Austral",
       "nav_info": "Mais informação",
-      "nav_reserva": "Agende agora!",
+      "nav_reserva": "Consulte agora!",
 
       "moreno": {
         "titulo": "Glaciar Perito Moreno",
